@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background-color: rgb(0, 0, 0);
+}
+
+#logo path:nth-child(1){
+    stroke-dasharray: 371px;
+    animation: anime-dasharay 4s forwards;
+   
+}
+#logo path:nth-child(2){
+    stroke-dasharray: 403px;
+    animation: anime-dasharay 4.5s forwards;
+}
+#logo path:nth-child(3){
+    stroke-dasharray: 230px;
+    animation: anime-dasharay 5s forwards;
+}
+#logo path:nth-child(4){
+    stroke-dasharray: 269px;
+    animation: anime-dasharay 5s forwards;
+}
+#logo path:nth-child(5){
+    stroke-dasharray: 389px;
+    animation: anime-dasharay 5s forwards;
+}
+#logo path:nth-child(6){
+    stroke-dasharray: 434px;
+    animation: anime-dasharay 7s forwards;
+}
+#logo path:nth-child(7){
+    stroke-dasharray: 370px;
+    animation: anime-dasharay 6.5s forwards;
+}
+#logo path:nth-child(8){
+    stroke-dasharray: 371px;
+    animation: anime-dasharay 9s forwards;
+}
+
+
+
+@keyframes anime-dasharay{
+    to{
+        stroke-dasharray: 0;
+    }
+}
+ 
